@@ -1,0 +1,429 @@
+
+@charset "utf-8";
+
+.wrap{
+    
+    font-family:'M PLUS Rounded 1c', sans-serif;
+    font-size: 16px;
+    background-color: #ffe7d9;
+    color: #6a2250;
+    }
+
+  /*color-link
+    https://huemint.com/website-2/#palette=ffe7d9-6a2250-b13f2d-1b5fac */
+
+/*headerここから*/
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin: 0 0 40px;
+    background-color: #ffe7d9;
+    border-top: 40px solid #ffe7d9;
+    }
+
+.cheese_logo{
+    padding: auto ;
+    
+}
+
+.map{
+    padding: 50px 0 ;
+    display: flex;
+    color: #6a2250;
+
+}
+
+.ab{
+    padding: 50px 50px;
+}
+
+
+/*headerここまで*/    
+
+/*mainvisual*/
+    .top__img{
+        margin: 0 0 60px;
+    
+    }
+
+    .hero-image{
+    margin: auto;
+    position: relative;
+    }
+
+    .cheese__top{
+    
+    text-align: center;
+
+    }
+
+    .cheese__top img{
+    margin:0 0 auto;
+    width: 1200px;
+    }
+
+
+    .hero-image__text { 
+            transform: translate3d(-70%,-50%,0);
+             position: absolute;
+             font-size: 35px;
+             font-weight: bold;
+             color: white;
+             top: 45%;
+             left: 50%;
+             letter-spacing: 0.1em;
+             white-space: nowrap;
+
+       }
+
+    .hero-image__text2 { 
+                font-size:  21px;;
+                font-weight: bold;
+                position: absolute;
+                color: white;
+                top: 60%;
+                left: 50%;
+                transform: translate3d(-50%,-50%,0);
+                letter-spacing: 0.1em;
+
+
+
+       }
+
+/*mainvisualここまで*/    
+
+/*ABOUTここから*/
+
+
+.profile-wrapper{
+    width: 520px;
+    margin:auto;
+    text-align: center;
+}
+
+
+.oomidashi{
+    font-weight: bold;
+    font-size: 24px;
+    color: #b13f2d;
+    text-align: center;
+    margin: 0 0 30px ;
+}   
+
+.profile__eyecatch{
+    margin: 0 0 60px ;
+    
+}
+
+.profile__images{
+    margin: 0 0 80px;
+    display:flex;
+    justify-content: center;
+}
+
+
+.profile__text{
+    font-size: 16px;
+    margin: 0 0 40px;
+}
+
+.profile__name{
+    margin: 0 0 80px;
+}
+
+.menu1 img{
+    width: 300px;
+}
+
+.menu2 img{
+    width: 300px;
+}
+
+.menu3 img{
+    width: 300px;
+}
+
+.menu4 img{
+    width: 300px;
+}
+
+/*ABOUTここまで*/
+
+/*COURSEここから*/
+
+
+.course__group{
+    background-color: #fafafa;
+    margin: 0 auto 60px;/*←ここでblockを中央揃えに  */
+    width: 1200px;
+    
+}
+
+.course__ground{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.course__group img{
+    width: 600px;
+}
+
+.profile__title{
+    font-weight: bold;
+    font-size: 24px;
+    text-align: center;
+    margin: 0 0 30px;
+    color: #b13f2d;
+}
+
+.course__title{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 0 0 40px;
+}
+
+.course__text{
+    width: 480px;
+    padding: 0 80px 50px 40px;
+}
+
+
+.course__ground2{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.course__ground3{
+
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+
+
+/*COURSEここまで*/
+
+
+
+
+
+/*NEWSここから*/
+
+
+
+.news{
+    display:flex;
+    justify-content:center;
+    margin: 0 0 60px ;
+}
+
+.news-title{
+    font-weight: bold;
+    font-size: 24px;
+    color: #1b5fac;
+    text-align: center;
+    margin: 0 0 30px ;
+}
+
+.item{
+    padding: 0 0 30px;
+    width: 300px;
+    background-color: #fff;
+}
+
+.news__eyecatch{
+    margin: 0 0 30px; 
+    width: 300px;
+
+}
+
+.news__eyecatch img{
+    width: 300px;
+}
+
+.news__heading{
+    margin: 0 0 24px;
+
+}
+
+.break__word{
+    overflow-wrap:  break-word;
+    line-height: 1.2;
+
+}
+
+@media not all and (min-width: 960px) {
+  .item {
+    width: 100%;
+  }
+
+  .item:not(:last-child) {
+    margin-bottom: 30px;
+  }
+}
+
+
+/*NEWSここまで*/
+
+/* Moreここから */
+
+.btn{ 
+    display: block;
+    background-color: #b13f2d;
+    font-size: 18px;
+    color: white;
+    margin: 0 0 60px;
+    margin: auto;
+    width: 300px;
+    padding: 21px 0 ;
+    text-align: center;
+}
+
+
+/* Moreここまで */
+
+/* ACCESSここから */
+
+.access__all{
+    background-color: #ffe7d9;
+    margin: 0 0 60px;
+    text-align: center;
+}
+
+.access__eyecatch{
+    font-weight: bold;
+    font-size: 24px;
+    margin: 60px 0 30px;   
+    color: #b13f2d;
+}
+
+.access__info{
+    margin: 0 0  60px;
+}
+
+.google-map{
+
+    margin: 0 0 60px;
+}
+
+.school__name{
+    margin: 0 0 30px;
+}
+
+.address{
+    height: 50px;
+}
+
+.mail{
+    height: 50px;
+    margin :0 0 60px;
+}
+
+/* ACCESSここまで */
+
+/* CONTACTここから */
+
+.contact__all{
+    text-align: center;
+}
+
+.contact__eyecatch{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0 0 30px;
+    color: #b13f2d;
+}
+
+.contact__text{
+    margin: 0 0 60px;
+}
+
+.contact__text2{
+    margin: 0 0 30px;
+}
+
+.contact__info{
+    margin: 0 0 70px;
+}
+
+/* CONTACTここまで */
+
+/* formここから*/
+
+.form__all{
+    text-align: center;
+    margin: 0 0 30px;
+}
+
+.form-wrapper{
+
+    width: 600px;
+    margin: auto;
+    
+}
+
+.form-inner{
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.form-item{
+
+    width: 340px;
+    height: 50px;
+}
+
+.form-part{
+    padding: 8px;
+    border: solid 1px;
+    font-size: 1.6rem;
+}
+
+.form-title{
+
+    width: 176px;
+    margin: 0 64px 0 0 ;
+    text-align: right;
+}
+
+.select-box{
+
+    width: 340px;
+    height: 50px;    
+
+}
+
+/* formここまで*/
+
+/* 送信 ここから*/
+
+.form__send{
+    margin: 0 0 140px;
+}
+
+/* 送信 ここまで*/
+
+/*footerここから*/
+.footer{
+        color: white; 
+        background-color: #707070;
+        height: 60px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+       }
+
+/*footerここまで*/
